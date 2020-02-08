@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_jumin_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_tti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_ganji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000B0F"
+        android:text="TextView"
+        android:textColor="#F7F8FA"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFinish"
+        android:text="Finish" />
+</LinearLayout>
